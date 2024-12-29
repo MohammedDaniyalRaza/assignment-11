@@ -8,8 +8,8 @@ import { Footer } from '@/components/layout/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Modern Blog Posts',
-  description: 'A beautiful blog posts display using Next.js and Tailwind CSS',
+  title: 'API Fetch By Dani',
+  description: 'Fetch Api By Daniyal',
 };
 
 export default function RootLayout({

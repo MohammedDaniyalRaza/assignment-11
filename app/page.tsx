@@ -3,7 +3,7 @@ import { PostsGrid } from '@/components/posts/posts-grid';
 
 async function getPosts(): Promise<Post[]> {
   const res = await fetch('https://jsonplaceholder.typicode.com/posts', {
-    next: { revalidate: 3600 } // Revalidate every hour
+    next: { revalidate: 3600 }
   });
 
   if (!res.ok) {
